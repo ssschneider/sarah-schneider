@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Linktree where you can see my main technologies and how to get in touch with me!">
+    <meta name="keywords" content="sarah schneider, html, css, javascript, js, react, reactjs, bootstrap, git, linkedin, github, instagram">
+    <meta name="author" content="Sarah Schneider">
+
+    <link rel="shortcut icon" href="src/images/favicon.ico" type="image/x-icon">
+
+    <title>Sarah Schneider | Techs & Links</title>
+
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/style.css">
+</head>
+<body>
+    <header>
+        <img src="https://github.com/ssschneider.png" alt="Sarah Schneider">
+        <div class="my-info">
+            <h1>Sarah Schneider</h1>
+            <h3>Jr. Front-End Developer</h3>
+        </div>
+    </header>
+
+    <main>
+        <section class="card">
+            <button id="btn-techs">
+                main techs
+            </button>
+
+            <ul class="techs" id="techs">
+                <li>
+                    <img src="https://cdn.worldvectorlogo.com/logos/html-1.svg" alt="HTML5">
+                </li>
+                <li>
+                    <img src="https://seeklogo.com/images/C/css-3-logo-023C1A7171-seeklogo.com.png" alt="CSS">
+                </li>
+                <li>
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAmVBMVEX33x4AAAD74x7/8iHp1ByLfBFLRAn/6B/85B//5h//6R9ORgn/7CD/7iD54B7s2x11ag5BOggpJAWunRXaxxuHehALCQHhzRwlIQSbjBNVTApxZg60oxZmXAyPgRF9cQ/LuRk3MQYaGANgVgzRvxoxLAa9qhfj0hzFsxiikhTx2R2fjxNqYA2yoRWpmBQSEAMhHQQ6NQcWFQO1ZeEGAAAIB0lEQVR4nO2ca3OqOhRAIaBJEKJUFEXFF7VKq23v//9xF9t6qphAgmjozF4fzpwZW2SVkMfeOzEMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAm2AIIUJI9i/TfSt8GA/Z3yWu5WHCjDRNGSPYszzSPM0uD6P8PhmiqBvs45m/Mr8Z+W+tQ9A1aKMskd1rd67wd17ZL2JsTwedk9wvK7+3D5DbHEdk+1c3mTGwCn+LUSsZtIe83zyynCxcpymOyG7z7rFVaEjQYi2yO0n2EW2GYwVDhsP5e4lgxmSBG6GobojcKbdhX/E09sgDTUQoG1LjTcrvyDrEj3Tho2pIw5m0oGl2EuehNjwUDakdKQhmLTXUrqhmSNORkmA2C0h0N1QlQ5TKv4MnOiF9tFPuplUM8VhZ0DQjFz1a6gIVQ3dTQTCbH+kd+hUMkfFUyXC10dpOFQzdKm30SDvV2U7lDUnwXNHQnLgazE4oGFZ9hBk6hwxpQ9bl/qAUka2xmUobYnFHumqve73J2v/gf9zeaB0vpA2ticDvqbVNDYSQYW/Hy+uPh3Nb72JY1hARwXzNDwlFiDGGEKUvcf7j5YZoXkLJGuKALzgn54Mdsi473NEA/5mZN55yBaM094Tc5Ox66wXWO2M7Im141f6+2F6NdM7iX4cTG02IY0gaMsrtaHzO1Mfbfn82Cb0G+CkYcoNrY05YlXm97JPlDuleGP4ga0i4hhteP0LCZ3MSUP1v4DeShoIf23KfE93srSZE2b650ZA/FjSlgX4h20oNbgRqqnPRIMltPc2kNIGjH2lDbph0iJrSn4iRNuzxfsw8NP8hSs9p+Ovf0aJJnQoXWUNHsDz0k6Z3NreuLcznxGr2u3jz+tA0By8NWEGIkV/ji3NOn/vUaa6jtKF7EBqaw04fe011lI+12Uux4jHhG5KGJO5zyMdL0aDIMHOMF6wxBRhnyBvS7XXxTM5xtnWa11jlDRkSxRPPeB7bpFEVUUqZGeGQeIEfL3ATwjP/UMkfehIPMWM0T6wGdToqhiiVLVOIEtaY56iU5aYL2UKF997WaUggQ8mQ4b6koWmuBvafiib+wCyVJGJsNOF1VKwYYkp50nUTivdUq76QkuIo9jRX01SpTbT2KiUZUaA7CFChvhQvVGrb/I3miugqFbQ0ValPHG719qmVqqCRt+koOO60dqmVDA3m2LF8leKw/zfqaS4hJJCbpX6hMyBX1TBztJKJoL7kiudA3xSuuqFhOGjRk2yrbxKbcO7ELYZZr4qCktjGib628P9NhkdHzzhEErsvzHzRxsO40fB4BdeY9spCONk0XNcU9XbD7BrUCHrCTVA/+KGmh1iHoXHsWNNDyU6aV01z8JoMM0fX7hdO5tapnmZam+FXfcL+s0Ax0BNKrdEw61ldZy8ulY71DBi1Gh7n5AE/HZ4RVbzmjdRseNx9uRMYfugpa6jd0GDWQTBy6NmrV7+hsFLTXGippr2HIeHvnjanf+UZktLXyePni+O/YYjcICxTxKHA8J5jPhG8A6qGLu4/Tcq+jDlcw3tuYkM42fCvrpa3IGRznLXwSoMv8Lhzm8n9cqdO2h+N+IEEEiy5DYpnSHAy//44KOkVH2xIrK8TECb8baEJN4L9ev2UmItapynZulu4FGIed03cus97iGj4M4/iFvTSPXd4vor/Mdw9nMWd3rpFvQ19ZE+Djd2pxXRszh+etLg3ky/gpiQXyp8XVaq7/Inb7g6jBbKSszXb+PohspQbvF5drnSQZc/zgcNYnOMlXX5EXFAVfosftS+jttcBL5ef1PW77OIyvIzapCtodIwI4m+1p6Eco5+fPS1yRUtYsHl5dhbeRGjPfyRRwK3XQ+6OP/Me1hxuI14YXX3T8jIPhMmc/9eOf+8FhcLo/XJHr/ZOMleYQuVtIarO8QwZ7tfMu5iir8OuCMaB4Byd97P95cguSDMN+y8IE/R9chZjCGNjuhT9cK1rfGZsRF/UeU1SijFG4TYWpR0+zyN/ovrnb5a9TWLjb6i93RWcPZTU2UgZK0jTjqLZfP629sVR3Nn5cWbMLd7iPHzuvPXi8TjuzdpFgeGo3lgbTgrvqoTLrTAkrHaWQo5DvfFS5qqdI3NJrtPDosiLCp91x7zxovrN9HJdAlI4OElIq/bhvtJJK19cr0IIWd4quGK1B9qQ4nlHv7SumxNOblW8Ryq/amfDzUgXnKggxX1ywN6+0s1suH9td3uLYMRb1tyOWpXdiTd+CRPzptXHjPeymEBVUNkGAg7tF0GPwPBW9Zyvf4LcDdH1KFqqilHByVxu0Qy1gM97VtMgptZQl4WpBZzGZbls3jXve/wOEpxnwccvOQSQkK1M2cUF9z870QukCwkHRunNuEa8VPF7mrr3L1DA6UGqi/D7VOJmCA4kSkt++BgEDykuRVicl/1l8CIXc2cEJZL91yx42Ok7xLMH7YI3aNiOQ/nTVBn10sOsZHT8aI/th9Z4E+dlM1/yb8af723F7R/IZclhLixKWEXjrf2AF/ASQpmdDKLcn34UxVubybyAORilLExeZ5//5eyeOr1NmNIKl7wdxohnETtY9PvjOB7v94vAJpZXPdSOqGt5RphdcP/ailuH/j4JbGpZWOvx84w6DnaOcSMn+095Orf0euh4wR9quWI9yJ+cr++KAAAAAAAAAAAAwIn/ASYFgd7+TQioAAAAAElFTkSuQmCC" alt="Javascript">
+                </li>
+                <li>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/512px-Bootstrap_logo.svg.png" alt="Bootstrap">
+                </li>
+                <li>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png" alt="Rect">
+                </li>
+                <li>
+                    <img src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png" alt="Git">
+                </li>
+            </ul>
+        </section>
+
+        <section class="card">
+            <button id="btn-links">
+                Find me at
+            </button>
+
+            <ul class="links" id="links">
+                <li>
+                    <a href="https://www.linkedin.com/in/sarahmurebs/" target="_blank">
+                        <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/ssschneider" target="_blank">
+                        <img src="https://cdn.icon-icons.com/icons2/2429/PNG/512/github_logo_icon_147285.png" alt="GitHub">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/ssch.codes/" target="_blank">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/2048px-Instagram_icon.png" alt="Instagram">
+                    </a>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <script type="text/javascript" src="src/js/index.js"></script>
+</body>
+</html>
