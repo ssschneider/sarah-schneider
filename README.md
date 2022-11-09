@@ -16,14 +16,17 @@ Projeto desenvolvido com o intuito de fornecer informações profissionais bási
 
 ## Acesso ao Site
 
-Para acessar o site, basta clicar aqui
+Para acessar o site, basta <a href="https://ssschneider.github.io/sarah-schneider/">clicar aqui</a>!
 
 ----
 
 ## Demo
 
-- Versão Desktop: 
-![Projeto rodando no desktop](src/images/desktop.gif)
 
-- Versão Mobile:
-![Projeto rodando no mobile](src/images/mobile.gif)
+| Versão Desktop: |
+|----------------|
+| ![Projeto rodando no desktop](src/images/desktop.gif)|
+
+| Versão Mobile: |
+|---------------|
+|![Projeto rodando no mobile](src/images/mobile.gif)|
